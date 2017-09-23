@@ -7,10 +7,14 @@ data class Person(val name: String,
 
 fun main(args: Array<String>) {
 
+
     val persons = listOf(Person("Alice"),
                          Person("Tom", age = 29))
 
+
+
     val oldest = persons.maxBy { it.age ?: 0 }
+
 
 
     println("The oldest is: $oldest")

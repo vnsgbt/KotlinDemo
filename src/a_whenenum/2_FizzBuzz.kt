@@ -1,8 +1,4 @@
-package whenenum
-
-import java.util.TreeMap
-
-
+package a_whenenum
 
 
 fun main(args: Array<String>) {
